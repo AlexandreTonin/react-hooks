@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <main className='container mx-auto py-12'>
+      <main className='container mx-auto'>
         <Outlet />
       </main>
     </>
