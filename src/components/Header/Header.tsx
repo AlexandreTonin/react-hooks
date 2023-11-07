@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import reactLogo from '/react.svg'
-import { AiFillGithub } from 'react-icons/ai'
-import { GiFishingHook } from 'react-icons/gi'
+import githubAnimation from '../../../public/github.json'
+import Lottie from 'lottie-react'
 
 export default function Header() {
     return (
@@ -13,8 +13,8 @@ export default function Header() {
 
             <a href="https://github.com/alexandretonin" target='_blank' className='hover:text-[#969696] transition'>
                 <div className='gap-4 flex items-center'>
-                    <p>/AlexandreTonin</p>
-                    <AiFillGithub className="text-4xl" />
+                    <p>github/AlexandreTonin</p>
+                    <Lottie animationData={githubAnimation} alt="" className='w-8' />
                 </div>
             </a>
         </header>
