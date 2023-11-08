@@ -11,7 +11,7 @@ export default function UseStateHook() {
     return (
         <PageContainer>
             <BackToGalleryButton />
-            <SectionTitle text="UseStateHook" />
+            <SectionTitle text="useState Hook" />
             <Content>
                 Lorem ipsum <CodeText>sit</CodeText> amet consectetur<code> adipisicing elit.</code> <CodeText>Qui laboriosam tenetur earum</CodeText> quisquam nulla, ipsa minima explicabo tempora odio iure nemo atque dolor fuga delectus, totam expedita cupiditate natus. Itaque.
             </Content>

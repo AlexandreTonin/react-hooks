@@ -7,10 +7,10 @@ export default function Gallery() {
         <PageContainer>
             <section className="grid grid-cols-4 gap-8">
                 <Link to={"/useState"}>
-                    <Card description="lorem ipsum dolor" title="useState" />
+                    <Card description="lorem ipsum dolor" title="useState()" />
                 </Link>
                 <Link to={"/useEffect"}>
-                    <Card description="lorem ipsum dolor" title="useEffect" />
+                    <Card description="lorem ipsum dolor" title="useEffect()" />
                 </Link>
                 <Link to={"/"}>
                     <Card description="lorem ipsum dolor" title="use" />
