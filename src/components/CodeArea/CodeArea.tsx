@@ -1,4 +1,5 @@
-import CodeText from "../CodeText/CodeText";
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 export default function CodeArea(props) {
     return (
@@ -8,7 +9,9 @@ export default function CodeArea(props) {
                 <div className="w-3 rounded-full bg-yellow-400 h-3"></div>
                 <div className="w-3 rounded-full bg-green-400 h-3"></div>
             </div>
-            <CodeText>{props.code}</CodeText>
+            <SyntaxHighlighter language="javascript" style={docco} >
+                {props.code}
+            </SyntaxHighlighter>
         </section>
     )
 } 

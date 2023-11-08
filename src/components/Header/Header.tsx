@@ -3,6 +3,7 @@ import reactLogo from '/react.svg'
 import githubAnimation from '../../../public/github.json'
 import Lottie from 'lottie-react'
 
+
 export default function Header() {
     return (
         <header className="h-20 max-w-screen shadow-[0px_0px_5px_2px_rgba(0,0,0,0.1)] px-4 flex items-center justify-between">

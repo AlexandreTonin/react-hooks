@@ -6,6 +6,7 @@ import ContentImage from "../../components/ContentImage/ContentImage"
 import PageContainer from "../../components/PageContainer/PageContainer"
 import SectionTitle from "../../components/SectionTitle/SectionTitle"
 
+
 export default function UseStateHook() {
     return (
         <PageContainer>
@@ -14,11 +15,13 @@ export default function UseStateHook() {
             <Content>
                 Lorem ipsum <CodeText>sit</CodeText> amet consectetur<code> adipisicing elit.</code> <CodeText>Qui laboriosam tenetur earum</CodeText> quisquam nulla, ipsa minima explicabo tempora odio iure nemo atque dolor fuga delectus, totam expedita cupiditate natus. Itaque.
             </Content>
-            <CodeArea code={`window.alert("Hello World")`} />
+            <CodeArea code={`
+console.log("teste")
+            `} />
             <Content>
                 Lorem ipsum <CodeText>sit</CodeText> amet consectetur<code> adipisicing elit.</code> <CodeText>Qui laboriosam tenetur earum</CodeText> quisquam nulla, ipsa minima explicabo tempora odio iure nemo atque dolor fuga delectus, totam expedita cupiditate natus. Itaque.
             </Content>
-            <ContentImage imgUrl={"https://media.graphassets.com/QvKtGhSzSXe8a0851syB"}/>
+            <ContentImage imgUrl={"https://media.graphassets.com/QvKtGhSzSXe8a0851syB"} />
         </PageContainer>
     )
 }
